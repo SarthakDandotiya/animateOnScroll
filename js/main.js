@@ -49,7 +49,7 @@ $(".project").each(function() {
 	var scene = new ScrollMagic.Scene({
 		triggerElement: this
 	})
-		.addIndicators()
+		// .addIndicators()
 		.setTween(animateIn)
 		.addTo(controller);
 });
